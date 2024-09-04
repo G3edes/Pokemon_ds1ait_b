@@ -11,6 +11,6 @@ O intuito desse projeto é colocar em prática o conhecimento adquirido sobre as
 - Markdown;
 - GIT
 
-##Autor
+## Autor
 
 -[Gabriel Silva Guedes]()
