@@ -138,3 +138,21 @@ footer{
         display: none;
     }
 }
+@media (max-width:640px){
+    header div{
+        display:none
+    }
+    .title span{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .description h2{
+        font-size: 36px;
+    }
+    .action{
+        width: 100%;
+    }
+    .description p{
+        display: none;
+    }
+}
