@@ -104,3 +104,37 @@ footer{
     transform: translate(-50%,-50%);
     height: 75vh;
 }
+@media (max-width:960px) {
+    body{
+        padding-inline: 32px;
+        padding-bottom: 16px;
+    }
+    main{
+        justify-content: space-between;
+
+    }
+    .pikachu{
+        height: 50vh;
+    }
+    .conteiner{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .title span{
+        left: -3%;
+    }
+    footer{
+        display: none;
+    }
+}
